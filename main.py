@@ -1,13 +1,13 @@
-from class_Candidate import Candidate
+from entity.Candidate import Candidate
 from greedy import greedy
 from input_parse import read_input
 from plot import plot_labels
 import sys
 
 
-def main(file):
+def main(file_path):
     candidate = Candidate()
-    read_input(str(file), candidate)
+    read_input(str(file_path), candidate)
     solution = greedy(candidate)
     print(solution) 
     plot_labels(candidate.list_of_labels, solution)

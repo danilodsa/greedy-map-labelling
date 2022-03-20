@@ -1,6 +1,5 @@
-from random import random
 from random import randrange
-from class_Candidate import Candidate
+from entity.Candidate import Candidate
 
 def greedy(candidate: Candidate):
     label_list = candidate.list_of_labels

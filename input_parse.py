@@ -1,5 +1,5 @@
-from class_Label import Label
-from class_Candidate import Candidate
+from entity.Label import Label
+from entity.Candidate import Candidate
 
 def read_input(path, candidate: Candidate):
     file = open(path, 'r')

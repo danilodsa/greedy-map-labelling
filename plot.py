@@ -5,7 +5,6 @@ from matplotlib.patches import Rectangle
 def plot_labels(labels, feasible_solution):
 
     fig, ax = plt.subplots()
-    # ax.plot([0,20],[0,20])
     ax_max = 0
     
     for label in labels:
